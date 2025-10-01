@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/Kumar-universal-editor-template/:/",
+    "/content/Kumar-universal-editor-template/configuration:/.helix/config.json",
+    "/content/Kumar-universal-editor-template/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/Kumar-universal-editor-template/"
   ]
 }
