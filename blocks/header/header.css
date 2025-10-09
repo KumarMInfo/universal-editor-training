@@ -1,10 +1,16 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   width: 100%;
   z-index: 2;
   position: fixed;
+  color: #000;
 }
+
+
+
 
 header nav {
   box-sizing: border-box;
@@ -48,11 +54,61 @@ header nav[aria-expanded='true'] {
 header nav p {
   margin: 0;
   line-height: 1;
+  width: 7rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #62310e, #140f11);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-header nav a:any-link {
-  color: currentcolor;
+/* Hover effect */
+header nav p:hover {
+  background-image: linear-gradient(90deg, #ee0979, #ff6a00); /* reverse gradient */
+  transform: scale(1.1); /* slight zoom effect */
 }
+header nav h3 {
+  margin-top: 0;
+  width: 12rem;
+  font-weight: 700;
+  font-size: 2.2rem;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #6a11cb, #2575fc); /* purple → blue */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+header nav h3:hover {
+  background-image: linear-gradient(90deg, #2575fc, #6a11cb); /* reverse gradient */
+  transform: scale(1.05); /* slight zoom for interaction */
+}
+
+
+
+header nav a:any-link {
+  display: inline-block;
+  padding: 10px 22px;
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: end;
+}
+
+/* Hover Effect */
+header nav a:any-link:hover {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(37, 117, 252, 0.5);
+}
+
 
 /* hamburger */
 header nav .nav-hamburger {
@@ -145,9 +201,19 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 50px;
   height: auto;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+/* Hover effect */
+header nav .nav-brand img:hover {
+  transform: scale(1.1); /* slight zoom */
+  box-shadow: 0 8px 20px rgba(37, 117, 252, 0.4); /* soft glow/shadow */
+}
+
 
 /* sections */
 header nav .nav-sections {
