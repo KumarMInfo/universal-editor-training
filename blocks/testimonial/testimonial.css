@@ -1,0 +1,16 @@
+/* Simple Testimonial Styles */
+.testimonial > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial > ul > li {
+  padding: 20px;
+  background: #f9f9f9;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+}

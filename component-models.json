@@ -263,6 +263,23 @@
       "label": "Review Text"
     }
     ]
+  },
+  {
+    "id": "testimonial-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "message",
+        "label": "Message"
+      }
+    ]
   }
 
   
