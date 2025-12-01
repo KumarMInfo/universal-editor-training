@@ -235,7 +235,7 @@
     ]
   },
   {
-  "id": "review",
+  "id": "reviews",
   "fields": [
     {
       "component": "reference",
@@ -262,12 +262,6 @@
       "name": "rating",
       "label": "Rating (1–5)"
     }
-    
-  
-
-
-      
-      
     ]
   }
 
