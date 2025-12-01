@@ -26,7 +26,12 @@
       "card"
     ]
   },
-  
+  {
+    "id": "reviews",
+    "components": [
+      "review"
+    ]
+  },
   {
     "id": "columns",
     "components": [
