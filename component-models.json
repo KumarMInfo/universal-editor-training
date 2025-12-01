@@ -247,7 +247,7 @@
     {
       "component": "text",
       "valueType": "string",
-      "name": "name",
+      "name": "r-name",
       "label": "Reviewer Name"
     },
     {
