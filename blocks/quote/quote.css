@@ -1,0 +1,23 @@
+.quote {
+  padding: 40px;
+  background: #f5f5f5;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.quote > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quote > ul > li {
+  margin-bottom: 20px;
+}
+
+.quote > ul > li:last-child {
+  margin-bottom: 0;
+}

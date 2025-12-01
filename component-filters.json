@@ -38,5 +38,17 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "reviews",
+    "components": [
+      "review"
+    ]
+  },
+  {
+    "id": "testimonial",
+    "components": [
+      "testimonial-item"
+    ]
   }
 ]

@@ -214,5 +214,69 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quote",
+        "label": "Quote"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author"
+      }
+    ]
+  },
+  {
+    "id": "review",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "name",
+        "label": "Reviewer Name"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title / Role"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "label": "Review Text"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "avatar",
+        "label": "Avatar",
+        "multi": false
+      }
+    ]
+  },
+  {
+    "id": "testimonial-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "message",
+        "label": "Message"
+      }
+    ]
   }
 ]
