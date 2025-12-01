@@ -15,22 +15,13 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "quote",
-      "reviews",
-      "testimonial"
+      "fragment"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
-    ]
-  },
-  {
-    "id": "reviews",
-    "components": [
-      "review"
     ]
   },
   {

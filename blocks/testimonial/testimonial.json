@@ -37,15 +37,15 @@
       "fields": [
         {
           "component": "text",
+          "valueType": "string",
           "name": "author",
-          "label": "Author",
-          "valueType": "string"
+          "label": "Author"
         },
         {
           "component": "richtext",
+          "valueType": "string",
           "name": "message",
-          "label": "Message",
-          "valueType": "string"
+          "label": "Message"
         }
       ]
     }
