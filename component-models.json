@@ -235,33 +235,42 @@
     ]
   },
   {
-    "id": "review",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "avatar",
-        "label": "Avatar",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "name",
-        "label": "Reviewer Name"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "label": "Title / Role"
-      },
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "rating",
-        "label": "Rating (1–5)"
-      }
+  "id": "review",
+  "fields": [
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "avatar",
+      "label": "Avatar",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "name",
+      "label": "Reviewer Name"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "title",
+      "label": "Title / Role"
+    },
+    {
+      "component": "text",
+      "valueType": "number",
+      "name": "rating",
+      "label": "Rating (1–5)"
+    },
+    {
+      "component": "richtext",
+      "valueType": "string",
+      "name": "text",
+      "label": "Review Text"
+    }
+  
+
+
       
       
     ]
