@@ -9,15 +9,15 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 20px;
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .reviews > ul > li {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #e6e7ea;
   border-radius: 14px;
   padding: 20px;
-  box-shadow: 0 6px 12px rgba(16,24,40,0.04);
+  box-shadow: 0 6px 12px rgb(16 24 40 / 4%);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   overflow: hidden;
@@ -26,7 +26,7 @@
 
 .reviews > ul > li:hover {
   transform: translateY(-6px);
-  box-shadow: 0 18px 30px rgba(16,24,40,0.08);
+  box-shadow: 0 18px 30px rgb(16 24 40 / 8%);
 }
 
 .reviews .review-header {
@@ -87,7 +87,7 @@
   font-size: 14px;
   color: #374151;
   line-height: 1.5;
-  margin: 8px 0 0 0;
+  margin: 8px 0 0;
   max-height: 7.5em; /* ~5 lines */
   overflow: hidden;
   position: relative;
@@ -116,9 +116,13 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .reviews > ul {
     grid-template-columns: 1fr;
   }
-  .reviews .review-avatar { width: 48px; height: 48px; }
+
+  .reviews .review-avatar {
+    width: 48px;
+    height: 48px;
+  }
 }
