@@ -261,20 +261,9 @@
         "valueType": "number",
         "name": "rating",
         "label": "Rating (1–5)"
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Review Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "date",
-        "label": "Date"
       }
+      
+      
     ]
   }
 

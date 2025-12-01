@@ -1,4 +1,3 @@
-
 import { createOptimizedPicture } from '../../scripts/aem.js';
 import { moveInstrumentation } from '../../scripts/scripts.js';
 
@@ -25,7 +24,7 @@ function renderStars(rating = 0) {
 function shortTextToggle(p, limit = 220) {
   const text = p.textContent.trim();
   if (text.length <= limit) return;
-  const short = text.slice(0, limit).trim() + '…';
+  const short = `${text.slice(0, limit).trim()}…`;
   const span = document.createElement('div');
   const body = document.createElement('div');
   body.className = 'review-body';
