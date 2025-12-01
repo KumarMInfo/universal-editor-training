@@ -261,13 +261,8 @@
       "valueType": "number",
       "name": "rating",
       "label": "Rating (1–5)"
-    },
-    {
-      "component": "richtext",
-      "valueType": "string",
-      "name": "text",
-      "label": "Review Text"
     }
+    
   
 
 
