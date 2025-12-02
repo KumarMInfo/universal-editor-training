@@ -15,12 +15,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "reviews",
-      "testimonial",
-      "testimonial-item",
-      "review",
-      "quote"
+      "fragment"
     ]
   },
   {
@@ -42,6 +37,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "promo-card",
+    "components": [
+      "promo-card-item"
     ]
   },
   {
