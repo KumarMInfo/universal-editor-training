@@ -15,7 +15,11 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "quote",
+      "promo-card",
+      "reviews",
+      "testimonial"
     ]
   },
   {
